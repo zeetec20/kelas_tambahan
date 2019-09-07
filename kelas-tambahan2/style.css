@@ -11,12 +11,13 @@ body{
 
 .form{
     margin: auto;
-    margin-top: 20px;
+    margin-top: 70px;
     width: 60%;
     height: 50%;
     background-color: #0000007e;
     border-radius: 5px;
     padding: 25px;
+    box-shadow: #00000078 0px 0px 15px 2px;
 }
 
 .titleForm{
