@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.form{
+    margin: auto;
+    margin-top: 20px;
+    width: 60%;
+    height: 50%;
+    background-color: #0000007e;
+    border-radius: 5px;
+    padding: 25px;
+}
+
+.titleForm{
+    text-align: center;
+    color: white;
+    font-family: calibri;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.input{
+    margin: auto;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    font-family: calibri;
+    width: 290px;
+    margin-top: 40px;
+}
+
+.input input{
+    width: 290px;
+    height: 30px;
+    background-color: transparent;
+    color: white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.input input:hover{
+    background-color: #ffffff3a;
+    transition: 0.5s;
+}
+
+.input input:focus{
+    outline: none;
+    background-color: #ffffff75;
+    border: solid;
+}
+
+.button{
+    margin-top: 40px;
+    width: 100%;
+}
+
+.button button{
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 90px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.button .reset{
+    margin-left: 30px;
+}
+
+.button .submit{
+    float: right;
+    margin-right: 30px;
+}
+
+.button button:hover{
+    background-color: #ffffff31;
+    transition: 0.5s;
+}
+
+.button button:focus{
+    background-color: #ffffff69;
+    color: rgb(3, 3, 3);
+}

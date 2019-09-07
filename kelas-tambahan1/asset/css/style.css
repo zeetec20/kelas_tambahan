@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #c2c9c5;
+}
+
+.pageLogin{
+    margin: auto;
+    margin-top: 150px;
+    background-color: white;
+    width: 40%;
+    height: 330px;
+    border-radius: 10px;
+}
+
+.pageLogin .titleForm{
+    text-align: center;
+    font-family: calibri;
+    width: 21%;
+    font-size: 50px;
+    margin: auto;
+    padding: 43px;
+    color: #000e27;
+    margin-bottom: 35px;
+}
+
+.pageLogin .divUsername, .pageLogin .divPassword{
+    margin: 18px;
+    margin-left: 120px;
+}
+
+.pageLogin label{
+    font-size: 26px;
+    font-weight: bold;
+    font-family: calibri;
+    color: #000e27;
+}
+
+.pageLogin input{
+    height: 25px;
+    width: 170px;
+    color: #00205ac2;
+    border: none;
+    border-bottom: solid 1px black;
+    font-size: 18px;
+}
+
+.pageLogin .divPassword label{
+    letter-spacing: 0.8px;
+}
